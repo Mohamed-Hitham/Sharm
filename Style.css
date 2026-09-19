@@ -74,4 +74,37 @@ h2:hover{
 
 .maincontacts{
     opacity: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    align-items: center;
+    font-size: 2vw;
+    position: absolute;
+    bottom: 100px;
+    justify-content: center;
+    margin-left: 35vw;
+    border: 3px solid rgb(178, 0, 0);
+    border-radius: 5%;
+}
+
+.mainphotos{
+    width: 70vw;
+    opacity: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    align-items: center;
+    font-size: 2vw;
+    position: absolute;
+    bottom: 100px;
+    justify-content: center;
+    margin-left: 15vw;
+    border: 3px solid rgb(178, 0, 0);
+    border-radius: 5%;
+}
+
+.logo2{
+    height: 150px;
+    opacity: 1;
+    margin-left: 30px;
 }

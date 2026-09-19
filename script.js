@@ -9,11 +9,16 @@ function itemchange(id){
     
     document.getElementsByClassName("maincontacts")[0].style.opacity = "0";
     
+    document.getElementsByClassName("mainphotos")[0].style.opacity = "0";
+
     document.getElementsByClassName("main")[0].style.opacity = "0";
     if (id == "myprogarmm"){
         document.getElementsByClassName("main")[0].style.opacity = "1";
     }
     if (id == "contacts"){
         document.getElementsByClassName("maincontacts")[0].style.opacity = "1";
+    }
+    if (id == "photos"){
+        document.getElementsByClassName("mainphotos")[0].style.opacity = "1";
     }
 }
